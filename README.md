@@ -19,4 +19,4 @@ Vert.x的执行单元叫verticle。即程序的入口，每个语言可能实现
 <b>所有业务逻辑其实都会跑在Netty里的EventLoop上，而EventLoop通过循环事件队列来执行所有的业务逻辑，这样可以把一些I/O操作频繁的事件及时从CPU上剥离开来，最后通过注册一个回调Handler来处理所有的事件回调。</b>
 
 ----
-Vert.x3支持很多常用工具：metrics、热部署、consul、kafka、mongo、redis等
+Vert.x3支持很多常用工具：metrics、热部署、consul、kafka、mongo、redis等。
